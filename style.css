@@ -1,0 +1,107 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 8;
+}
+.main-menu-area{
+
+}
+.logo{
+margin-top:24px;
+transition:all 0.3s ease os;
+}
+
+/*.sticky .logo
+{
+	margin-top: 18px;
+}*/
+.logo a{
+color: #ffffff;
+display: inline-block;
+font-weight: 700;
+text-transform: uppercase;
+}
+.main-menu{
+
+}
+.main-menu ul{
+
+}
+.main-menu ul li{
+display: inline-block;
+}
+.main-menu ul li a
+{
+color: #ffffff;
+text-transform: uppercase;
+font-weight: 700;
+padding: 30px 20px;
+display: block;
+}
+/*header.sticky
+{
+	background:#444;
+	position: fixed;
+}*/
+
+/*.sticky .main-menu ul li a
+{
+	padding: 15px 20px;
+}*/
+.single-slider{
+	height: 100vh;
+	background-size: cover;
+
+	
+	
+	
+}
+.slider-title{
+	display: table;
+height: 100%;
+text-align: center;
+width: 100%;
+}
+.table-cell{
+	display: table-cell;
+vertical-align: middle;
+}
+.table-cell h2
+{
+	color: #eee;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);  
+}
+.table-cell p
+{
+	color: #ffffff;
+	font-weight:500; 
+}
+.slider-active .owl-nav div.owl-next
+{
+left: auto;
+right: 0;
+}
+
+.slider-active .owl-nav div
+{
+	 cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 28px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  left: 20px;
+}
